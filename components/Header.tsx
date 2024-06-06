@@ -4,7 +4,6 @@ import Logout from "../islands/Logout.tsx"
 type Prop ={
   username: string
 }
-
 const Header: FunctionComponent<Prop> = ({username}) => {
   return(
         <header className="header-container">
