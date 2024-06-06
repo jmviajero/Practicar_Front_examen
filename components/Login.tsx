@@ -3,7 +3,6 @@ import { FunctionComponent } from "preact";
 type Props = {
     message?: string 
 }
-
 const Login : FunctionComponent<Props> = ({message}) => {
     return(
         <div class="login-container">
