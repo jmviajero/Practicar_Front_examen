@@ -2,13 +2,11 @@ import { FunctionComponent } from "preact";
 import Logout from "../islands/Logout.tsx"
 
 type Prop ={
-    username: string
+  username: string
 }
 
 const Header: FunctionComponent<Prop> = ({username}) => {
-
-
-    return(
+  return(
         <header className="header-container">
         <div className="header-content">
           <span className="user-name">{username}</span>
@@ -17,5 +15,4 @@ const Header: FunctionComponent<Prop> = ({username}) => {
       </header>
     )
 }
-
 export default Header

@@ -4,7 +4,6 @@ type Props = {
     message?: string 
 }
 
-
 const Login : FunctionComponent<Props> = ({message}) => {
     return(
         <div class="login-container">
@@ -13,10 +12,8 @@ const Login : FunctionComponent<Props> = ({message}) => {
             <form method="POST" action="/login">
                 <label for="email">Email</label>
                 <input type="text" id="email" name="email" required />
-
                 <label for="password">Password</label>
                 <input type="password" id="password" name="password" required />
-
                 <button type="submit">Login</button>
                 <p class="register-link">
                     Don't have an account? <a href="/register">Register</a>
@@ -25,5 +22,4 @@ const Login : FunctionComponent<Props> = ({message}) => {
         </div>
     )
 }
-
 export default Login

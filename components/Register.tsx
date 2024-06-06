@@ -1,7 +1,5 @@
 import { FunctionComponent } from "preact";
 
-
-
 const Register: FunctionComponent = () => {
     return(
         <div class="register-container">
@@ -21,5 +19,4 @@ const Register: FunctionComponent = () => {
         </div>
     )
 }
-
 export default Register
